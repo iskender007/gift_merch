@@ -1,0 +1,79 @@
+.box-creative {
+  position: relative;
+  height: 550px;
+}
+.creative {
+  position: absolute;
+  top: -200px;
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url("../../img/Rectangle_88.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding-top: 77px;
+  padding-bottom: 120px;
+  &__wrapper {
+    display: flex;
+    position: relative;
+  }
+  &__logo {
+    padding-left: 120px;
+  }
+  &__img-logo {
+    width: 250.146px;
+    height: 87.158px;
+    transform: rotate(-2.349deg);
+    flex-shrink: 0;
+    margin-bottom: 10px;
+  }
+  &__title {
+    width: 800px;
+  }
+  &__text {
+    width: 500px;
+    color: var(--gray, #454747);
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 44px;
+  }
+  &__btn {
+    margin-left: 29px;
+    color: var(--main-black, #272525);
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 105.5%; /* 18.99px */
+    padding: 18px 43px;
+    border-radius: 60px;
+    background: #eef1f6;
+  }
+  &__img3 {
+    position: absolute;
+    top: 40%;
+    right: 12%;
+    z-index: 1;
+    width: 380.549px;
+    height: 380.549px;
+    flex-shrink: 0;
+  }
+  &__img2 {
+    position: absolute;
+    z-index: 2;
+    width: 506px;
+    height: 506px;
+  }
+  &__img1 {
+    position: absolute;
+    top: 20px;
+    right: 24px;
+    width: 428px;
+    height: 428px;
+    z-index: 3;
+  }
+}

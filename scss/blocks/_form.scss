@@ -1,0 +1,80 @@
+.form {
+  background-image: url("../../img/bgf.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  &__wrapper {
+    padding-top: 230px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 150px;
+  }
+  &__title {
+    color: #222227;
+    font-family: Gilroy;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 46.8px */
+    letter-spacing: 1.44px;
+    width: 500px;
+    margin-bottom: 17px;
+  }
+  &__text {
+    color: var(--gray, #454747);
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 23.4px */
+    letter-spacing: 1.17px;
+    width: 500px;
+    margin-bottom: 90px;
+  }
+  &__title3 {
+    color: #222227;
+    font-family: Gilroy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 500px;
+    margin-bottom: 35px;
+  }
+  &__registration {
+    display: flex;
+    gap: 33px;
+  }
+  &__input {
+    border: none;
+    border-bottom: color #272525 solid 1px;
+    color: var(--gray, #454747);
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 336px;
+  }
+  &__img1 {
+    position: absolute;
+    top: 320px;
+    left: 47%;
+  }
+  &__img2 {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+  }
+  &__img3 {
+    position: absolute;
+    left: 55%;
+    top: 8%;
+  }
+  &__img4 {
+    position: absolute;
+    left: 90%;
+    top: 8%;
+  }
+}

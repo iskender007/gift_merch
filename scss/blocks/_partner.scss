@@ -1,0 +1,48 @@
+.partner {
+  &__carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    position: relative;
+  }
+  &__carousel-container {
+    display: flex;
+    transition: all 0.5s;
+  }
+  &__carousel-slide {
+    flex: 0 0 20%; /* Регулируйте ширину слайдов по своему усмотрению */
+    padding: 10px;
+    text-align: center;
+  }
+  &__next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    right: 10px;
+  }
+  &__prev-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    left: 10px;
+  }
+  &__title {
+    color: #222227;
+    font-family: Gilroy;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 78px;
+  }
+}
