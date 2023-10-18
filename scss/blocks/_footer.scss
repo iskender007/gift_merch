@@ -1,0 +1,129 @@
+.footer {
+  height: 100%;
+  background-image: url("../../img/Rectangle20.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 275px 0 15px 0;
+  margin-bottom: 92px;
+  &__box {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+  }
+  &__logo {
+    margin-bottom: 40px;
+  }
+  &__logo-img {
+    width: 487.619px;
+    height: 39.144px;
+    margin-bottom: 15px;
+  }
+  &__title {
+    color: var(--gray, #454747);
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 23.4px */
+    letter-spacing: 1.17px;
+  }
+  &__contact {
+    display: flex;
+    flex-direction: column;
+  }
+  &__tell {
+    color: var(--main-black, #272525);
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  &__emeil {
+    color: var(--main-black, #272525);
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    margin-bottom: 30px;
+  }
+  &__socials {
+    display: flex;
+    gap: 21px;
+  }
+  &__list {
+    display: flex;
+    width: 129px;
+    height: 244.493px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  &__title3 {
+    color: var(--main-black, #272525);
+    font-family: Gilroy;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 180% */
+  }
+  &__item {
+    color: var(--gray, #454747);
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52px; /* 288.889% */
+  }
+  &__manager {
+    width: 280px;
+    height: 183px;
+    flex-shrink: 0;
+  }
+  &__text {
+    color: #8f90a6;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px; /* 164.286% */
+  }
+  &__input {
+    width: 277px;
+    height: 54px;
+    flex-shrink: 0;
+    padding: 15px;
+    position: relative;
+    border-radius: 15px;
+    border: 2px solid var(--main-black, #272525);
+    background: #fff;
+  }
+  &__btn {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    flex-shrink: 0;
+    background-color: #524983;
+    border-radius: 50%;
+    right: 7%;
+  }
+  &__sub {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+  }
+  &__subtext {
+    color: #9fa3b2;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+  }
+}

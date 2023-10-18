@@ -1,0 +1,28 @@
+<svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="13" height="14" fill="#E5E5E5"/>
+<g id="3. &#208;&#146;&#209;&#129;&#208;&#181; &#209;&#130;&#208;&#190;&#208;&#178;&#208;&#176;&#209;&#128;&#209;&#139;" clip-path="url(#clip0_0_1)">
+<rect width="1920" height="3613" transform="translate(-1677 -3417)" fill="#FAFAFA"/>
+<g id="Footer">
+<path id="Rectangle 20" opacity="0.19" d="M-1750 48.506L170 48.5059L170 -366.5C170 -366.5 -80.5 -434.5 -812.015 -383.978C-1543.53 -333.455 -1750 -411 -1750 -411L-1750 48.506Z" fill="url(#paint0_linear_0_1)" fill-opacity="0.5"/>
+<g id="&#208;&#158;&#208;&#161;">
+<g id="Group 7">
+<rect id="Rectangle 15" x="-241" y="-19.4935" width="275" height="52" rx="14" fill="white" stroke="#272525" stroke-width="2"/>
+<circle id="Ellipse 1" cx="6" cy="6.50647" r="17" fill="#524983"/>
+<g id="Group 6">
+<path id="Vector" d="M1 6.79312H12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M6.5 1.43567L12 6.79305L6.5 12.1504" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_1" x1="-1940.37" y1="-685.799" x2="-1170.76" y2="1086.26" gradientUnits="userSpaceOnUse">
+<stop stop-color="#9796F0"/>
+<stop offset="1" stop-color="#FBC7D4"/>
+</linearGradient>
+<clipPath id="clip0_0_1">
+<rect width="1920" height="3613" fill="white" transform="translate(-1677 -3417)"/>
+</clipPath>
+</defs>
+</svg>
