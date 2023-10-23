@@ -48,6 +48,8 @@
   }
   &__input {
     border: none;
+    border-bottom: solid 2px;
+    outline: none;
 
     color: var(--gray, #454747);
     background-color: transparent;

@@ -144,4 +144,36 @@
     height: 428px;
     z-index: 3;
   }
+  &__form {
+    display: flex;
+    gap: 80px;
+  }
+  &__registration {
+    display: flex;
+    flex-direction: column;
+  }
+  &__input {
+    border: none;
+    border-bottom: solid 2px;
+    outline: none;
+    margin-bottom: 35px;
+    height: 19px;
+  }
+  &__title3 {
+    color: #222227;
+    font-family: Gilroy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 282px;
+    span {
+      color: #1fab8a;
+      font-family: Gilroy;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+  }
 }
